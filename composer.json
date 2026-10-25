@@ -1,0 +1,42 @@
+
+{
+    "name": "tacraft-sociality/flarum-discussion-top",
+    "description": "Open Flarum discussions from the first post",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "discussion",
+        "post"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TaCraft-Sociality",
+            "homepage": "https://github.com/TaCraft-Sociality"
+        }
+    ],
+    "homepage": "https://github.com/TaCraft-Sociality/flarum-discussion-top",
+    "support": {
+        "issues": "https://github.com/TaCraft-Sociality/flarum-discussion-top/issues",
+        "source": "https://github.com/TaCraft-Sociality/flarum-discussion-top"
+    },
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "extend.php"
+        ]
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Discussion Top",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-arrow-up",
+                "backgroundColor": "#2878d0",
+                "color": "#ffffff"
+            }
+        }
+    }
+}
